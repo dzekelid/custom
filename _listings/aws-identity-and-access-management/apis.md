@@ -30,7 +30,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/aws-identity-and-access-management/action-getcontextkeysforcustompolicy-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/aws-identity-and-access-management/action-simulatecustompolicy-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
