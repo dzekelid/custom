@@ -33,7 +33,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/akamai/galaxy-v1-customers-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/akamai/galaxy-v1-customers-akamaicustomerid-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
