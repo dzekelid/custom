@@ -33,7 +33,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/akamai/config-saas-registration-v1-customers-surrogateid-contractid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/akamai/config-saas-registration-v1-customers-surrogateid-contractid-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
