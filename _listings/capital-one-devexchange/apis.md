@@ -22,7 +22,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/capital-one-devexchange/customers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/capital-one-devexchange/customers-post.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
