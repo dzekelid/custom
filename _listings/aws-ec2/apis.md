@@ -33,7 +33,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/aws-ec2/action-deletecustomergateway-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/aws-ec2/action-describecustomergateways-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
