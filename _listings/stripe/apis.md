@@ -33,7 +33,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-discount-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-discount-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
