@@ -41,15 +41,15 @@ modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/xignite/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Xignite Interbanks
+- name: Xignite Statistics
   description: Financial market data on-demand
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: ""
-  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
+  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/xignite/drawyieldcurvecustom-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/xignite/gettopicchartcustom-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
