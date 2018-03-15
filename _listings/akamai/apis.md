@@ -33,7 +33,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/akamai/events-v2-accountid-events-id-startrange,endrange,sortfield,sortorder,startindex,limit,customereventid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/akamai/config-saas-registration-v1-customers-contractid-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
