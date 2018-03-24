@@ -4,25 +4,25 @@ description: What unites us all is a desire to create better end customer experi
   Were building a full suite of tools and technology that make essential things in
   peoples everyday life ndash; money, finances, identity ndash; simpler for you. Now
   is the time to join our beta program, and help us shape the future.
-image: ""
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
 x-kinRank: "9"
 x-alexaRank: ""
 tags:
 - US Bank
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/capital-one-devexchange/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/capital-one-devexchange/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Capital One DevExchange
   description: What unites us all is a desire to create better end customer experiences
-  image: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: ""
   baseURL: https://api.reimaginebanking.com//
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/capital-one-devexchange/customers-id-bills-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/capital-one-devexchange/customers-id-accounts-post.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
