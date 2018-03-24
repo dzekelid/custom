@@ -19,9 +19,9 @@ tags:
 - Google APIs
 - Documents
 - Applications
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/google-apps-admin-sdk/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Apps Admin SDK API
@@ -32,7 +32,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/google-apps-admin-sdk/customers-customerid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/customers-post.md
 x-common:
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
