@@ -32,6 +32,7 @@ paths:
         200:
           description: OK
       tags:
+      - cdn
       - custom domain
 definitions:
   Profile:
