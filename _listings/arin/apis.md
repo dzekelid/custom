@@ -14,9 +14,9 @@ tags:
 - Infrastructure
 - DNS Internet
 - DNS
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/arin/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/arin/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Customers API
@@ -28,7 +28,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/arin/customers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/arin/customers-get.md
 x-common:
 - type: x-website
   url: https://www.arin.net
