@@ -32,7 +32,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/customers-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/customers-customerid-get.md
 x-common:
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
