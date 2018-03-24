@@ -12,9 +12,9 @@ tags:
 - Google APIs
 - Analytics
 - Analysis
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/google-analytics/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-analytics/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Analytics
@@ -27,7 +27,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-get.md
 x-common:
 - type: x-blog
   url: https://analytics.googleblog.com/
