@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCustomerGateways&k=1:
+  /?Action=DescribeCustomerGateways:
     get:
       summary: Describe Customer Gateways
       description: Describes one or more of your VPN customer gateways
