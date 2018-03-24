@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SimulateCustomPolicy&k=1:
+  /?Action=SimulateCustomPolicy:
     get:
       summary: ' Simulate Custom Policy '
       description: |-
