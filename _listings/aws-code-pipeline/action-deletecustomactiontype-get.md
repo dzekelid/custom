@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCustomActionType&k=1:
+  /?Action=DeleteCustomActionType:
     get:
       summary: ' Delete Custom Action Type '
       description: Marks a custom action as deleted
