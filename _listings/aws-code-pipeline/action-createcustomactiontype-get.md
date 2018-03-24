@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCustomActionType&k=1:
+  /?Action=CreateCustomActionType:
     get:
       summary: ' Create Custom Action Type '
       description: |-
