@@ -18,9 +18,9 @@ tags:
 - Email
 - Email
 - API LIfeycle
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/sendgrid/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/sendgrid/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: SendGrid
@@ -35,7 +35,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/custom/master/_listings/sendgrid/contactdb-custom-fields-custom-field-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/sendgrid/contactdb-custom-fields-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
