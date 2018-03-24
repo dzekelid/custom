@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCustomerGateway&k=1:
+  /?Action=DeleteCustomerGateway:
     get:
       summary: Delete Customer Gateway
       description: Deletes the specified customer gateway
