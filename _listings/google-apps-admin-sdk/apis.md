@@ -34,14 +34,14 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/customers-customerid-put.md
 - name: Google Apps Admin SDK API Update Customer
-  description: Update a customer account's settings. This method supports patch semantics.
+  description: Update a customer account's settings.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
   humanURL: https://developers.google.com/admin-sdk/
   baseURL: https://{host}//
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/customers-customerid-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/customers-customerid-put.md
 x-common:
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
