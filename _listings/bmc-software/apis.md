@@ -14,16 +14,7 @@ created: "2018-03-23"
 modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/bmc-software/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: BMC Software API Custom_events All?fromUtc={fromUtc}&amp;toUtc={toUtc}
-  description: Gets all custom events using optional filter.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bmc-truesight.png
-  humanURL: http://www.bmc.com
-  baseURL: https://{host}//
-  tags: Custom
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/bmc-software/custom-events-all-fromutc-fromutc-amp;toutc-toutc-get.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.bmc.com/blogs
