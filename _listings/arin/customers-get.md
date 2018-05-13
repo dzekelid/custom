@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Customer API
-  description: For managing customers
+  title: Customers API Manage customers
+  description: ""
   version: "1.0"
 host: whois.arin.net
 basePath: /rest
