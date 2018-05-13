@@ -34,20 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-discount-get.md
-- name: Stripe Get Customers Customer Subscriptions
-  description: "You can see a list of the customer\u2019s active subscriptions. Note
-    that the 10 most recent active subscriptions are always available by default on
-    the customer object. If you need more than those 10, you can use the limit and
-    starting_after parameters to page through additional subscriptions."
+- name: Stripe Add Customers Customer Subscriptions
+  description: Creates a new subscription on an existing customer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
