@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite InterBanks
-  description: Provide information about global interbank interest rates.
+  title: Xignite Interbanks Draw Yield Curve Custom
+  description: Draw a yield curve for a rate family.
   version: 1.0.0
 host: www.xignite.com
 basePath: xInterBanks.json/XigniteInterBanks
