@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Add a Customer
-  description: Add a Customer
+- name: Akamai API Modify a Customer
+  description: Modify a Customer
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/akamai/galaxy-v1-customers-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/akamai/galaxy-v1-customers-akamaicustomerid-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
