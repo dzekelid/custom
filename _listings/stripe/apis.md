@@ -34,20 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-discount-get.md
-- name: Stripe Get Customers Customer Bank Accounts
-  description: You can see a list of the bank accounts belonging to a Customer. Note
-    that the 10 most recent sources are always available by default on the Customer.
-    If you need more than those 10, you can use this API method and the limit and
-    starting_after parameters to page through additional bank accounts.
+- name: Stripe Add Customers Customer Bank Accounts
+  description: Post Customers, Customer, Bank, Accounts
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-bank-accounts-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-bank-accounts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-bank-accounts-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
