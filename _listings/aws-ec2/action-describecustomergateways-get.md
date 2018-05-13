@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Customer Gateways
   version: 1.0.0
+  description: Describes one or more of your VPN customer gateways.
 schemes:
 - http
 produces:
