@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite InterBanks
-  description: Provide information about global interbank interest rates.
+  title: Xignite Interbanks Draw Rate Chart Custom
+  description: Draw a custom rate chart for a date range.
   version: 1.0.0
 host: www.xignite.com
 basePath: xInterBanks.json/XigniteInterBanks
