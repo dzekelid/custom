@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Customers Customer Subscriptions Subscription Exposed
+  description: Updates an existing subscription on a customer to match the specified
+    parameters. When changing plans or quantities, we will optionally prorate the
+    price we charge next month to make up for any price changes. To preview how the
+    proration will be calculated, use the upcoming invoice endpoint.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
