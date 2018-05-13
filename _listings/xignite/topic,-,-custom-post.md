@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite Statistics
-  description: Delivers and charts more than 1400 economical time-series fom the Federal
-    Reserve Bank.
+  title: Xignite Statistics Get Topic Chart Custom
+  description: Get time-series data and a URL to a custom chart for a topic.
   version: 1.0.0
 host: www.xignite.com
 basePath: xStatistics.json/XigniteStatistics
