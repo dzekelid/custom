@@ -34,7 +34,37 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-discount-get.md
+- name: Stripe Get Customers
+  description: Returns a list of your customers. The customers are returned sorted
+    by creation date, with the most recent customers appearing first.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Custom
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-get-postman.md
 x-common:
+- type: x-base
+  url: https://api.stripe.com/
+- type: x-blog
+  url: https://stripe.com/blog
+- type: x-blog-rss
+  url: https://stripe.com/blog/feed.rss
+- type: x-change-log
+  url: https://stripe.com/docs/upgrades
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/stripe
+- type: x-github
+  url: https://github.com/stripe
+- type: x-pricing
+  url: https://stripe.com/us/pricing
+- type: x-twitter
+  url: https://twitter.com/stripe
+- type: x-website
+  url: https://stripe.com/
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog
