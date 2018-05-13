@@ -34,15 +34,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-discount-get.md
-- name: Stripe Delete Customers Customer Bank Accounts
-  description: Delete Customers, Customer, Bank, Accounts
+- name: Stripe Get Customers Customer Bank Accounts
+  description: By default, you can see the 10 most recent sources stored on a Customer
+    directly on the object, but you can also retrieve details about a specific bank
+    account stored on the Stripe account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-bank-accounts-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-bank-accounts-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-bank-accounts-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
