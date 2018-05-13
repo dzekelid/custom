@@ -33,7 +33,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/customers-customerid-put.md
+- name: Google Apps Admin SDK API Create Customer
+  description: Order a new customer's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https://{host}//
+  tags: Custom
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/customers-post.md
 x-common:
+- type: x-blog
+  url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
+- type: x-blog-rss
+  url: https://gsuite-developers.googleblog.com/feeds/posts/default?alt=rss
+- type: x-issues
+  url: https://code.google.com/a/google.com/p/apps-api-issues/issues/list?q=label:API-Apps
+- type: x-website
+  url: https://developers.google.com/admin-sdk/
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
 - type: x-blog-rss
