@@ -25,7 +25,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-enablecustomhttps-post.md
+- name: Azure CDN API Custom Domains List By Endpoint
+  description: Lists all of the existing custom domains within an endpoint.
+  image: ""
+  humanURL: https://azure.microsoft.com/en-us/services/cdn/
+  baseURL: http:://management.azure.com//
+  tags: Custom
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/cdn/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/cdn/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/cdn/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/cdn/
 - type: x-pricing
