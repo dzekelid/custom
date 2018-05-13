@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite Currencies
-  description: Provide real-time currency foreign exchange information and calculations.
+  title: Xignite Currencies Get Currency Intraday Chart Custom Binary
+  description: Draw a intraday currency chart for a time range in a binary format
   version: 1.0.0
 host: www.xignite.com/xCurrencies.json
 basePath: /XigniteCurrencies
