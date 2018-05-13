@@ -21,18 +21,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Delete V2 Customers Customer
-  description: Deletes a customer from a business, along with any linked cards on
-    file.
+- name: Square Connect API Get V2 Customers Customer
+  description: Returns details for a single customer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-get-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
