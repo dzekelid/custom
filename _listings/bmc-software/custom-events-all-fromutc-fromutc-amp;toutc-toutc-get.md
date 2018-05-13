@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BMC Software Merged API
+  title: BMC Software API Custom_events All?fromUtc={fromUtc}&amp;toUtc={toUtc}
   version: 1.0.0
+  description: Gets all custom events using optional filter.
 schemes:
 - http
 produces:
