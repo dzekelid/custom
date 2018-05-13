@@ -25,17 +25,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-enablecustomhttps-post.md
-- name: Azure CDN API Custom Domains Get
-  description: Gets an exisitng custom domain within an endpoint.
+- name: Azure CDN API Custom Domains Create
+  description: Creates a new custom domain within an endpoint.
   image: ""
   humanURL: https://azure.microsoft.com/en-us/services/cdn/
   baseURL: http:://management.azure.com//
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/cdn/
