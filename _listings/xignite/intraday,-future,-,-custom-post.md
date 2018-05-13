@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite Futures
-  description: Provide delayed and historical commodity quote information from supported
-    exchanges (NYMEX...).
+  title: Xignite Futures Get Intraday Future Chart Custom
+  description: Get a custom intraday price chart for a future contract.
   version: 1.0.0
 host: www.xignite.com
 basePath: xFutures.json/XigniteFutures
