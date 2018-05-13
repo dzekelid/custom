@@ -37,7 +37,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-cards-post.md
+- name: Square Connect API Delete V2 Customers Customer Cards Card
+  description: Delete v2 customers customer cards card.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
+  humanURL: https://squareup.com
+  baseURL: https://connect.squareup.com/v1/
+  tags: Custom
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-cards-card-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-cards-card-id-delete-postman.md
 x-common:
+- type: x-base
+  url: https://connect.squareup.com
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/square
+- type: x-developer
+  url: https://connect.squareup.com/
+- type: x-github
+  url: https://github.com/square
+- type: x-twitter
+  url: https://twitter.com/Square
+- type: x-website
+  url: https://squareup.com
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
