@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Modify a Customer
+  description: Modify a Customer
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Modify a Customer
       operationId: galaxyv1customersakamaicustomerid
       parameters:
-      - in: String
+      - in: query
         name: akamaiCustomerId
         description: Akamai ID of the customer, maximum 50 characters
         type: string
