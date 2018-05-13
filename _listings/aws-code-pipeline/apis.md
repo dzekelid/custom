@@ -37,17 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/aws-code-pipeline/action-deletecustomactiontype-get.md
-- name: AWS Code Pipeline API Create Custom Action Type
-  description: |-
-    Creates a new custom action that can be used in all pipelines associated with the
-                AWS account.
+- name: AWS Code Pipeline API Delete Custom Action Type
+  description: Marks a custom action as deleted.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
   baseURL: http:://{host}//
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/aws-code-pipeline/action-createcustomactiontype-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/aws-code-pipeline/action-deletecustomactiontype-get.md
 x-common:
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
