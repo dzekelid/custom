@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Add a Customer
+  description: Add a Customer
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Add a Customer
       operationId: galaxyv1customers
       parameters:
-      - in: String
+      - in: query
         name: akamaiCustomerId
         description: Akamai ID of the customer, maximum 50 characters
         type: string
-      - in: Boolean
+      - in: query
         name: debug
         description: The flag to include debug members in the response JSON
         type: string
