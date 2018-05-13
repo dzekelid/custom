@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Customers Customer Subscriptions
+  description: "You can see a list of the customer\u2019s active subscriptions. Note
+    that the 10 most recent active subscriptions are always available by default on
+    the customer object. If you need more than those 10, you can use the limit and
+    starting_after parameters to page through additional subscriptions."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
