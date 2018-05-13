@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BMC Software Merged API
+  title: BMC Software API Events?message={message}&amp;severity={severity}&amp;timestamp_utc_from={timestamp_utc_from}&amp;timestamp_utc_to={timestamp_utc_to}
   version: 1.0.0
+  description: Gets a list of events for the current user.
 schemes:
 - http
 produces:
