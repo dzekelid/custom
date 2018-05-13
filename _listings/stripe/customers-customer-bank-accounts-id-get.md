@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Customers Customer Bank Accounts
+  description: By default, you can see the 10 most recent sources stored on a Customer
+    directly on the object, but you can also retrieve details about a specific bank
+    account stored on the Stripe account.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
