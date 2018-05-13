@@ -23,15 +23,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/capital-one-devexchange/customers-id-bills-get.md
-- name: Capital One DevExchange Create an account
-  description: Creates an account for the customer with the id provided
+- name: Capital One DevExchange Get accounts by customer id
+  description: Returns the accounts associated with the specific customer
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: http://capitalone.com
   baseURL: https://api.reimaginebanking.com//
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/capital-one-devexchange/customers-id-accounts-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/capital-one-devexchange/customers-id-accounts-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/capital-one-devexchange/customers-id-accounts-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
