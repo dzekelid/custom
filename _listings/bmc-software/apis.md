@@ -14,16 +14,7 @@ created: "2018-03-23"
 modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/bmc-software/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: BMC Software API Events?message={message}&amp;severity={severity}&amp;timestamp_utc_from={timestamp_utc_from}&amp;timestamp_utc_to={timestamp_utc_to}
-  description: Gets a list of events for the current user.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bmc-truesight.png
-  humanURL: http://www.bmc.com
-  baseURL: https://{host}//
-  tags: Custom
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/bmc-software/events-message-message-amp;severity-severity-amp;timestamp-utc-from-timestamp-utc-from-amp;timestamp-utc-to-timestamp-utc-to-get.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.bmc.com/blogs
