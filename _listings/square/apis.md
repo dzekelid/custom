@@ -21,29 +21,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Post V2 Customers
-  description: |-
-    Creates a new customer for a business, which can have associated cards on file.
-
-    You must provide __at least one__ of the following values in your request to this
-    endpoint:
-
-    - `given_name`
-    - `family_name`
-    - `company_name`
-    - `email_address`
-    - `phone_number`
-
-    This endpoint does not accept an idempotency key. If you accidentally create
-    a duplicate customer, you can delete it with the
-    [DeleteCustomer](#endpoint-deletecustomer) endpoint.
+- name: Square Connect API Delete V2 Customers Customer
+  description: Deletes a customer from a business, along with any linked cards on
+    file.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
