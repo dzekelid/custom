@@ -50,7 +50,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/,-binary,-custom-post.md
-- name: Xignite Currencies Get Currency Chart Custom
+- name: Xignite Currencies Get Currency Chart Custom Binary
   description: Draw a custom currency chart for a date range.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
@@ -58,7 +58,7 @@ apis:
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/currency,-,-custom-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/currency,-,-custom,-binary-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
