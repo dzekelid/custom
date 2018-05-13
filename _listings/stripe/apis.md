@@ -34,18 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-discount-get.md
-- name: Stripe Add Customers Customer Subscriptions Subscription Exposed
-  description: Updates an existing subscription on a customer to match the specified
-    parameters. When changing plans or quantities, we will optionally prorate the
-    price we charge next month to make up for any price changes. To preview how the
-    proration will be calculated, use the upcoming invoice endpoint.
+- name: Stripe Delete Customers Customer Subscriptions Subscription Exposed  Discount
+  description: Delete Customers, Customer, Subscriptions, Subscription, Exposed, ,
+    Discount
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/customers-customer-subscriptions-subscription-exposed-id-discount-delete.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
