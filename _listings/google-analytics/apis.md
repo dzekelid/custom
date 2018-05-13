@@ -28,7 +28,40 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-get.md
+- name: Google Analytics Get Custom Data
+  description: List custom data sources to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Custom
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-get-postman.md
 x-common:
+- type: x-blog
+  url: https://analytics.googleblog.com/
+- type: x-blog-rss
+  url: https://analytics.googleblog.com/feeds/posts/default?alt=rss
+- type: x-developer
+  url: https://developers.google.com/analytics/
+- type: x-github
+  url: https://github.com/googleanalytics/
+- type: x-google-plus
+  url: https://plus.google.com/+GoogleAnalytics
+- type: x-partners
+  url: https://developers.google.com/analytics/program/
+- type: x-stack-overflow
+  url: http://stackoverflow.com/questions/tagged/google-analytics
+- type: x-support
+  url: https://developers.google.com/analytics/help/
+- type: x-twitter
+  url: https://twitter.com/googleanalytics
+- type: x-videos
+  url: https://www.youtube.com/user/googleanalytics
+- type: x-website
+  url: https://www.google.com/analytics/#?modal_active=none
 - type: x-blog
   url: https://analytics.googleblog.com/
 - type: x-blog-rss
