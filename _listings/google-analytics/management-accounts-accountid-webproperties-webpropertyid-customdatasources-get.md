@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Analytics
-  description: Views and manages your Google Analytics data.
+  title: Google Analytics Get Custom Data
+  description: List custom data sources to which the user has access.
   contact:
     name: Google
     url: https://google.com
