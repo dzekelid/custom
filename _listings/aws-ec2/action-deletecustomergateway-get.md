@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Delete Customer Gateway
   version: 1.0.0
+  description: Deletes the specified customer gateway.
 schemes:
 - http
 produces:
