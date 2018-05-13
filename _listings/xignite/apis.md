@@ -59,15 +59,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/historical,-future,-,-custom-post.md
-- name: Xignite Futures Get Historical Future Chart Custom Binary
-  description: Draw a custom historical chart for a future contract.
+- name: Xignite Futures Get Historical Commodity Chart Custom
+  description: Get a custom historical chart for a commodity in binary format.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/historical,-future,-,-custom,-binary-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/historical,-commodity,-,-custom-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
