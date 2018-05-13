@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Code Pipeline API
+  title: AWS Code Pipeline API Create Custom Action Type
   version: 1.0.0
+  description: |-
+    Creates a new custom action that can be used in all pipelines associated with the
+                AWS account.
 schemes:
 - http
 produces:
