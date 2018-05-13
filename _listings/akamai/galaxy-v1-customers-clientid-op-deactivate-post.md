@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Deactivate a Client
+  description: Deactivate a Client
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Deactivate a Client
       operationId: galaxyv1customersclientidopdeactivate
       parameters:
-      - in: String
+      - in: query
         name: clientId
         description: Client ID of the device, maximum 50 characters
         type: string
