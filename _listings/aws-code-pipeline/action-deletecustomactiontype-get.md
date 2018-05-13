@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Code Pipeline API
+  title: AWS Code Pipeline API Delete Custom Action Type
   version: 1.0.0
+  description: Marks a custom action as deleted.
 schemes:
 - http
 produces:
