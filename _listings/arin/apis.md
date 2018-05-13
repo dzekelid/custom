@@ -29,7 +29,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/arin/customers-get.md
+- name: Customers API Manage customers
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arin-logo.png
+  humanURL: https://www.arin.net
+  baseURL: https://whois.arin.net//rest
+  tags: Custom
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/arin/customers-get.md
 x-common:
+- type: x-website
+  url: https://www.arin.net
+- type: x-developer
+  url: https://www.arin.net/resources/restful-interfaces.html
+- type: x-github
+  url: https://github.com/arineng
+- type: x-twitter
+  url: https://twitter.com/TeamARIN
 - type: x-website
   url: https://www.arin.net
 - type: x-developer
