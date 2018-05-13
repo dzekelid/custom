@@ -21,22 +21,22 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Put V2 Customers Customer
+- name: Square Connect API Post V2 Customers Customer Cards
   description: |-
-    Updates the details of an existing customer.
-    The ID of the customer may change if the customer has been merged into another customer.
+    Adds a card on file to an existing customer. In the United States
+    Square takes care of automatically updating any cards on file that might
+    have expired since you first attached them to a customer.
 
-    You cannot edit a customer's cards on file with this endpoint. To make changes
-    to a card on file, you must delete the existing card on file with the
-    [DeleteCustomerCard](#endpoint-deletecustomercard) endpoint, then create a new one with the
-    [CreateCustomerCard](#endpoint-createcustomercard) endpoint.
+    As with charges, calls to `CreateCustomerCard` are idempotent. Multiple
+    calls with the same card nonce return the same card record that was created
+    with the provided nonce during the _first_ call.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/square/v2-customers-customer-id-cards-post.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
