@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Customers Customer
+  description: Retrieves the details of an existing customer. You need only supply
+    the unique customer identifier that was returned upon customer creation.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
