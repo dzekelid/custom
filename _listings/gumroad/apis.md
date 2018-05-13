@@ -24,15 +24,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Gumroad Post Products Custom Fields
-  description: Create a new custom field for a product.
+- name: Gumroad Put Products Custom Fields Name
+  description: Edit an existing products custom field.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gumroad.jpeg
   humanURL: https://gumroad.com
   baseURL: https://api.gumroad.com//v2
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/products-product-id-custom-fields-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/products-product-id-custom-fields-name-put.md
 x-common:
 - type: x-application-management
   url: https://gumroad.com/settings/developer
