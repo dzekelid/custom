@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Apps Admin SDK Merged API
+  title: Google Apps Admin SDK API Create Customer
   version: 1.0.0
+  description: Order a new customer's account.
 schemes:
 - http
 produces:
