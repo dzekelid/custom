@@ -50,15 +50,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/,-binary,-custom-post.md
-- name: Xignite Statistics Get Topic Chart Custom
-  description: Get time-series data and a URL to a custom chart for a topic.
+- name: Xignite Statistics Get Topic Binary Chart Custom
+  description: Get time-series and a custom chart in binary format for a topic.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/topic,-,-custom-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/topic,-binary,-,-custom-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
