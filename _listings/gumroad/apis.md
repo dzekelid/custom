@@ -1,38 +1,57 @@
 ---
 name: Gumroad
-description: Gumroad enables creatives to sell directly to their audience ??? so that
-  they can make a living doing what they love. Writers, designers, game developers,
-  musicians, artists, and filmmakers use Gumroad to earn money off of their creative
-  efforts.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gumroad.jpeg
+x-slug: gumroad
+description: Sell music, comics, software, books, and films directly to your audience.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Videos
-- Videos
-- Target
-- Stack Network
-- Social
-- Shopping
-- Product
-- My API Stack
-- Music
-- Documents
-- Commerce
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "4658"
+tags: Custom
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Gumroad Get Products Custom Fields
+  x-api-slug: gumroad
+  description: Retrieve all of the existing custom fields for a product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
+  baseURL: https://api.gumroad.com//v2//products/:product_id/custom_fields
+  tags: Products,Custom,Fields
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fields-get-openapi.md
+- name: Gumroad Post Products Custom Fields
+  x-api-slug: gumroad
+  description: Create a new custom field for a product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
+  baseURL: https://api.gumroad.com//v2//products/:product_id/custom_fields
+  tags: Products,Custom,Fields
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fields-post-openapi.md
 - name: Gumroad Put Products Custom Fields Name
+  x-api-slug: gumroad
   description: Edit an existing products custom field.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gumroad.jpeg
-  humanURL: https://gumroad.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
+  baseURL: https://api.gumroad.com//v2//products/:product_id/custom_fields/:name
+  tags: Products,Custom,Fields,:name
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fieldsname-put-openapi.md
+- name: Gumroad
+  x-api-slug: gumroad
+  description: Share and sell exclusive videos directly to your followers. Selling
+    stuff has always been a pain. No longer! Get back to creating.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
   baseURL: https://api.gumroad.com//v2
   tags: Custom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/products-product-id-custom-fields-name-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/openapi.md
 x-common:
 - type: x-application-management
   url: https://gumroad.com/settings/developer
@@ -42,10 +61,14 @@ x-common:
   url: http://blog.gumroad.com
 - type: x-blog-rss
   url: http://blog.gumroad.com/rss
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/gumroad
 - type: x-developer
   url: https://gumroad.com/developers
 - type: x-email
   url: partners@gumroad.com
+- type: x-email
+  url: support@gumroad.com
 - type: x-embeddable
   url: https://gumroad.com/embed
 - type: x-github
@@ -60,6 +83,8 @@ x-common:
   url: https://twitter.com/gumroad
 - type: x-webhooks
   url: https://gumroad.com/webhooks
+- type: x-website
+  url: http://gumroad.com
 - type: x-website
   url: https://gumroad.com
 include: []
