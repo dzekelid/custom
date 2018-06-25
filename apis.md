@@ -4,7 +4,7 @@ description: This is a repository of custom APIs, self-contained as a Github rep
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/custom.png
 created: "2018-02-24"
-modified: "2018-06-18"
+modified: "2018-06-25"
 url: http://custom.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -36,16 +36,16 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-cdn/apis.yaml
 - name: Azure DevTest Labs
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/azure-devtest-labs/apis.yaml
-- name: Capital One DevExchange
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/capital-one-devexchange/apis.yaml
-- name: Standard Chartered
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/standard-chartered/apis.yaml
 - name: BMC Software
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/bmc-software/apis.yaml
 - name: Dyn
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/dyn/apis.yaml
 - name: Google Apps Admin SDK
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-apps-admin-sdk/apis.yaml
+- name: Capital One DevExchange
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/capital-one-devexchange/apis.yaml
+- name: Standard Chartered
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/standard-chartered/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/xignite/apis.yaml
 - name: Xignite

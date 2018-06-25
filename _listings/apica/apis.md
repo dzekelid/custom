@@ -1,14 +1,14 @@
 ---
 name: Apica
 x-slug: apica
-description: Apica???s performance testing and monitoring solutions provide critical
+description: Apicas performance testing and monitoring solutions provide critical
   peak performance data and 24/7 monitoring of applications and sites around the world.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
 x-kinRank: "7"
-x-alexaRank: "827487"
+x-alexaRank: "876355"
 tags: Custom
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
@@ -50,7 +50,7 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/apica/customerscustomeridsubscription-put-openapi.md
 - name: Customers API
   x-api-slug: customers-api
-  description: Apica???s performance testing and monitoring solutions provide critical
+  description: Apicas performance testing and monitoring solutions provide critical
     peak performance data and 24/7 monitoring of applications and sites around the
     world.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
@@ -73,7 +73,7 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/apica/messagesactiveactiveampcustomeridcustomerid-get-openapi.md
 - name: Messages API
   x-api-slug: messages-api
-  description: Apica???s performance testing and monitoring solutions provide critical
+  description: Apicas performance testing and monitoring solutions provide critical
     peak performance data and 24/7 monitoring of applications and sites around the
     world.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
@@ -95,15 +95,19 @@ x-common:
 - type: x-documentation
   url: https://api-wpm.apicasystem.com/v3/Help
 - type: x-email
+  url: support@apicasystems.com
+- type: x-email
   url: sales@apicasystems.com
 - type: x-email
   url: swesales@apicasystems.com
 - type: x-email
-  url: support@apicasystems.com
-- type: x-email
   url: operations@apicasystem.com
 - type: x-github
   url: https://github.com/ApicaSystem
+- type: x-linkedin
+  url: https://www.linkedin.com/company/apica-ab
+- type: x-phone
+  url: 1 (310) 776-7540
 - type: x-twitter
   url: https://twitter.com/apicasystems
 - type: x-website

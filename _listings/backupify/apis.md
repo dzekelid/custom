@@ -6,8 +6,8 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Custom
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/backupify/apis.md
 specificationVersion: "0.14"
 apis:

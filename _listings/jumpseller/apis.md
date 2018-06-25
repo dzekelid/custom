@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jump
 x-kinRank: "7"
 x-alexaRank: "153745"
 tags: Custom
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/jumpseller/apis.md
 specificationVersion: "0.14"
 apis:
