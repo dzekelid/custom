@@ -12,40 +12,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versa
 x-kinRank: "9"
 x-alexaRank: "410909"
 tags: Custom
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
-apis:
-- name: VersaPay Create and Update Customer
-  x-api-slug: versapay
-  description: |-
-    Create a customer in ARC using the following attributes (at minimum by providing values for required attributes). If providing an identifier for an existing customer, its information is updated.<br><br>
-    *Note: Any additional non-standard attribute will be stored with customer record and available for presentment rendering.*
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
-  humanURL: http://developers.versapay.com/index.html
-  baseURL: https://secure.versapay.com////api/imports/customer
-  tags: Customer
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/versapay/apiimportscustomer-post-openapi.md
-- name: VersaPay
-  x-api-slug: versapay
-  description: VersaPay handles elements of both credit and debit card merchant payment
-    processing in Canada. In offering a host of merchant account services and credit
-    card POS terminals it allows for an efficient merchant payment service in all
-    aspects- in person, on the go, online, and at the office. Founded in 2005 by Michael
-    Gokturk, VersaPay is a Canadian owned and operated national financial transaction
-    services provider partnered with Chase Paymentech. Versapay also offers electronic
-    funds transfer through a system called Versapay EMT.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
-  humanURL: http://developers.versapay.com/index.html
-  baseURL: https://secure.versapay.com//
-  tags: Custom
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/versapay/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://venmo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://versapay.stack.network
 - type: x-base
   url: https://secure.versapay.com/api/
 - type: x-blog

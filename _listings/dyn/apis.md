@@ -7,33 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Custom
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Dyn Retrieving a list of custom X-header field names
-  x-api-slug: dyn
-  description: Retrieving a list of custom X-header field names
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////xheaders
-  tags: Retrievinglist, of, custom, X-header, field, names
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/dyn/xheaders-get-openapi.md
-- name: Dyn
-  x-api-slug: dyn
-  description: Dyn is home to the worlds most trusted DNS product suite and the worlds
-    most reputable Email Deliverability Service.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:///
-  tags: Custom
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/dyn/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://duckduckgo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dyn.stack.network
 - type: x-base
   url: https://api.dynect.net
 - type: x-blog

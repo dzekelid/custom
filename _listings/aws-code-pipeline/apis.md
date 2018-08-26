@@ -16,54 +16,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Custom
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/aws-code-pipeline/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Code Pipeline API Create Custom Action Type
-  x-api-slug: aws-code-pipeline-api
-  description: |-
-    Creates a new custom action that can be used in all pipelines associated with the
-                AWS account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
-  humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=CreateCustomActionType
-  tags: Custom, Action, Type
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/aws-code-pipeline/actioncreatecustomactiontype-get-openapi.md
-- name: AWS Code Pipeline API Delete Custom Action Type
-  x-api-slug: aws-code-pipeline-api
-  description: Marks a custom action as deleted.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
-  humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=DeleteCustomActionType
-  tags: Custom, Action, Type
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/aws-code-pipeline/actiondeletecustomactiontype-get-openapi.md
-- name: AWS Code Pipeline API
-  x-api-slug: aws-code-pipeline-api
-  description: AWS Data Pipeline is a web service that helps you reliably process
-    and move data between different AWS compute and storage services, as well as on-premise
-    data sources, at specified intervals. With AWS Data Pipeline, you can regularly
-    access your data where it&rsquo;s stored, transform and process it at scale, and
-    efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS,
-    Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex
-    data processing workloads that are fault tolerant, repeatable, and highly available.
-    You don&rsquo;t have to worry about ensuring resource availability, managing inter-task
-    dependencies, retrying transient failures or timeouts in individual tasks, or
-    creating a failure notification system. AWS Data Pipeline also allows you to move
-    and process data that was previously locked up in on-premise data silos.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
-  humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: :///
-  tags: Custom
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/aws-code-pipeline/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.cloudwatch.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.code.pipeline.stack.network
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
 - type: x-change-log

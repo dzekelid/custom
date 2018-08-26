@@ -6,53 +6,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumro
 x-kinRank: "8"
 x-alexaRank: "4658"
 tags: Custom
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Gumroad Get Products Custom Fields
-  x-api-slug: gumroad
-  description: Retrieve all of the existing custom fields for a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/custom_fields
-  tags: Products,Custom,Fields
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fields-get-openapi.md
-- name: Gumroad Post Products Custom Fields
-  x-api-slug: gumroad
-  description: Create a new custom field for a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/custom_fields
-  tags: Products,Custom,Fields
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fields-post-openapi.md
-- name: Gumroad Put Products Custom Fields Name
-  x-api-slug: gumroad
-  description: Edit an existing products custom field.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/custom_fields/:name
-  tags: Products,Custom,Fields,:name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fieldsname-put-openapi.md
-- name: Gumroad
-  x-api-slug: gumroad
-  description: Share and sell exclusive videos directly to your followers. Selling
-    stuff has always been a pain. No longer! Get back to creating.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2
-  tags: Custom
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://gsa.per.diem.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gumroad.stack.network
 - type: x-application-management
   url: https://gumroad.com/settings/developer
 - type: x-base
