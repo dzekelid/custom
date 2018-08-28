@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Data2CRM
 x-complete: 1
@@ -153,4 +152,3 @@ paths:
       - Fields
       - Custom
       - Field
----

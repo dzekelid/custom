@@ -9,11 +9,78 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Custom
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-adsense/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Adsense Merged API - Get Custom Channels
+  x-api-slug: adclientsadclientidcustomchannels-get
+  description: List all host custom channels in this AdSense account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+- name: Google Adsense Merged API - Update Custom Channels
+  x-api-slug: adclientsadclientidcustomchannels-patch
+  description: Update a custom channel in the host AdSense account. This method supports
+    patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+- name: Google Adsense Merged API - Create Custom Channels
+  x-api-slug: adclientsadclientidcustomchannels-post
+  description: Add a new custom channel to the host AdSense account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+- name: Google Adsense Merged API - Update Custom Channel
+  x-api-slug: adclientsadclientidcustomchannels-put
+  description: Update a custom channel in the host AdSense account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
+- name: Google Adsense Merged API - Delete Custom Channel
+  x-api-slug: adclientsadclientidcustomchannelscustomchannelid-delete
+  description: Delete a specific custom channel from the host AdSense account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
+- name: Google Adsense Merged API - Get Custom Channel
+  x-api-slug: adclientsadclientidcustomchannelscustomchannelid-get
+  description: Get a specific custom channel from the host AdSense account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://gmail.api.gallery.streamdata.io

@@ -6,11 +6,47 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumro
 x-kinRank: "8"
 x-alexaRank: "4658"
 tags: Custom
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Gumroad - Get Products Custom Fields
+  x-api-slug: productsproduct-idcustom-fields-get
+  description: Retrieve all of the existing custom fields for a product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
+  baseURL: https://api.gumroad.com//v2
+  tags: Commerce, Shopping, Social, Videos, Music, Documents, Videos, My API Stack,
+    Target, Stack Network, Media, Technology, internet, Marketplace, Services, API
+    Provider, Products, Profiles, Relative Data, Service API, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fields-get-openapi.md
+- name: Gumroad - Post Products Custom Fields
+  x-api-slug: productsproduct-idcustom-fields-post
+  description: Create a new custom field for a product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
+  baseURL: https://api.gumroad.com//v2
+  tags: Commerce, Shopping, Social, Videos, Music, Documents, Videos, My API Stack,
+    Target, Stack Network, Media, Technology, internet, Marketplace, Services, API
+    Provider, Products, Profiles, Relative Data, Service API, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fields-post-openapi.md
+- name: Gumroad - Put Products Custom Fields Name
+  x-api-slug: productsproduct-idcustom-fieldsname-put
+  description: Edit an existing products custom field.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
+  baseURL: https://api.gumroad.com//v2
+  tags: Commerce, Shopping, Social, Videos, Music, Documents, Videos, My API Stack,
+    Target, Stack Network, Media, Technology, internet, Marketplace, Services, API
+    Provider, Products, Profiles, Relative Data, Service API, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/gumroad/productsproduct-idcustom-fieldsname-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://gsa.per.diem.api.api.gallery.streamdata.io

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Google Doubleclick
 x-complete: 1
@@ -61,4 +60,3 @@ paths:
       tags:
       - Advertising
       - Channels
----

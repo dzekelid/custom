@@ -12,11 +12,71 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versa
 x-kinRank: "9"
 x-alexaRank: "410909"
 tags: Custom
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: VersaPay API Reference - Create and Update Customer
+  x-api-slug: apiimportscustomer-post
+  description: |-
+    Create a customer in ARC using the following attributes (at minimum by providing values for required attributes). If providing an identifier for an existing customer, its information is updated.<br><br>
+    *Note: Any additional non-standard attribute will be stored with customer record and available for presentment rendering.*
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/versapay/apiimportscustomer-post-openapi.md
+- name: VersaPay API Reference - Create and Update Invoice
+  x-api-slug: apiimportsinvoice-post
+  description: |-
+    Create and update invoices in ARC. If the invoice already exists when a request is processed, it will be updated.<br><br>
+    The set of attributes to send in the request body may vary based on the account configuration. Please contact the implementation specialist for more information.<br><br>
+    *Note:*
+      * *Customer will be created/updated using the customer_&ast; attributes if necessary at time of invoice import.*
+      * *Any additional non-standard attribute will be stored with invoice record and available for presentment rendering.*
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/versapay/apiimportsinvoice-post-openapi.md
+- name: VersaPay API Reference - Create a Payment
+  x-api-slug: apiimportspayment-post
+  description: |-
+    Create and update external payment records in ARC.<br><br>The set of attributes to send in the request body may vary based on the account configuration. Please contact the implementation specialist for more information.<br><br>
+    The request schema for posting a payment for a single invoice is slightly different than that for posting a payment for multiple invoices.
+
+    For instance, sample request for posting payment for a single invoice looks like:
+    ```
+    {
+      "identifier": "PMT0010-05",
+      "invoice_number": "INV1234-01",
+      "amount": 10000,
+      "currency": "usd",
+      "date": "2018-01-10",
+      "customer_identifier": "C1234",
+      "customer_name": "Acme Inc.",
+      "notes": "Notes",
+      "ref1": "1234",
+      "ref2": "PO# 84767"
+    }
+    ```
+
+    *Note: Customer will be created using the customer_&ast; attributes if it doesn???t already exist at the time of payment import.*
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/versapay/apiimportspayment-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://venmo.api.gallery.streamdata.io

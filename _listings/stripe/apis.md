@@ -9,11 +9,145 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Custom
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Stripe - Delete Account
+  x-api-slug: account-delete
+  description: With Connect, you may delete Custom accounts you manage.Custom accounts
+    created using test-mode keys can be deleted at any time. Custom accounts created
+    using live-mode keys may only be deleted once all balances are zero.If you are
+    looking to close your own account, use the data tab in your account settings instead.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/account-delete-openapi.md
+- name: Stripe - Add Account
+  x-api-slug: account-post
+  description: Updates a connected Express or Custom account by setting the values
+    of the parameters passed. Any parameters not provided are left unchanged. To update
+    your own account, use the Dashboard.Refer to our Connect documentation to learn
+    more about updating accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/account-post-openapi.md
+- name: Stripe - Add Account Bank Accounts
+  x-api-slug: accountbank-accountsid-post
+  description: Updates the metadata of a bank account belonging to a Custom account,
+    and optionally sets it as the default for its currency. Other bank account details
+    are not editable by design.You can re-enable a disabled bank account by performing
+    an update call without providing any arguments or changes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/accountbank-accountsid-post-openapi.md
+- name: Stripe - Add Account External Accounts
+  x-api-slug: accountexternal-accountsid-post
+  description: Updates the metadata of a bank account belonging to a Custom account,
+    and optionally sets it as the default for its currency. Other bank account details
+    are not editable by design.You can re-enable a disabled bank account by performing
+    an update call without providing any arguments or changes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/accountexternal-accountsid-post-openapi.md
+- name: Stripe - Delete Accounts Account
+  x-api-slug: accountsaccount-delete
+  description: With Connect, you may delete Custom accounts you manage.Custom accounts
+    created using test-mode keys can be deleted at any time. Custom accounts created
+    using live-mode keys may only be deleted once all balances are zero.If you are
+    looking to close your own account, use the data tab in your account settings instead.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/accountsaccount-delete-openapi.md
+- name: Stripe - Add Accounts Account
+  x-api-slug: accountsaccount-post
+  description: Updates a connected Express or Custom account by setting the values
+    of the parameters passed. Any parameters not provided are left unchanged. To update
+    your own account, use the Dashboard.Refer to our Connect documentation to learn
+    more about updating accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/accountsaccount-post-openapi.md
+- name: Stripe - Add Accounts Account Bank Accounts
+  x-api-slug: accountsaccountbank-accountsid-post
+  description: Updates the metadata of a bank account belonging to a Custom account,
+    and optionally sets it as the default for its currency. Other bank account details
+    are not editable by design.You can re-enable a disabled bank account by performing
+    an update call without providing any arguments or changes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/accountsaccountbank-accountsid-post-openapi.md
+- name: Stripe - Add Accounts Account External Accounts
+  x-api-slug: accountsaccountexternal-accountsid-post
+  description: Updates the metadata of a bank account belonging to a Custom account,
+    and optionally sets it as the default for its currency. Other bank account details
+    are not editable by design.You can re-enable a disabled bank account by performing
+    an update call without providing any arguments or changes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/accountsaccountexternal-accountsid-post-openapi.md
+- name: Stripe - Add Accounts Account Reject
+  x-api-slug: accountsaccountreject-post
+  description: With Connect, you may flag accounts as suspicious.Test-mode Custom
+    and Express accounts can be rejected at any time. Accounts created using live-mode
+    keys may only be rejected once all balances are zero.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/stripe/accountsaccountreject-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stride.api.gallery.streamdata.io

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Custom
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/sendgrid/contactdbcustom-fields-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/sendgrid/contactdbcustom-fields-get-openapi.md
+- name: SendGrid - Add Contactdb Custom Fields
+  x-api-slug: contactdbcustom-fields-post
+  description: |-
+    **This endpoint allows you to create a custom field.**
+
+    The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/sendgrid/contactdbcustom-fields-post-openapi.md
+- name: SendGrid - Delete Contactdb Custom Fields Custom Field
+  x-api-slug: contactdbcustom-fieldscustom-field-id-delete
+  description: |-
+    **This endpoint allows you to delete a custom field by ID.**
+
+    The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/custom/master/_listings/sendgrid/contactdbcustom-fieldscustom-field-id-delete-openapi.md
 - name: SendGrid - Get Contactdb Custom Fields Custom Field
   x-api-slug: contactdbcustom-fieldscustom-field-id-get
   description: |-

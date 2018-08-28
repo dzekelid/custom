@@ -15,6 +15,86 @@ produces:
 consumes:
 - application/json
 paths:
+  Currency, , Custom:
+    get:
+      summary: Get Currency Chart Custom
+      description: Draw a custom currency chart for a date range.
+      operationId: postGetcurrencychartcustom
+      x-api-path-slug: currency--custom-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Currency
+      - Chart
+      - Custom
+  Currency, , Custom, Binary:
+    get:
+      summary: Get Currency Chart Custom Binary
+      description: Draw a custom currency chart for a date range.
+      operationId: postGetcurrencychartcustombinary
+      x-api-path-slug: currency--custom-binary-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Currency
+      - Chart
+      - Custom
+      - Binary
+  Currency, Intraday, , Custom, Binary:
+    get:
+      summary: Get Currency Intraday Chart Custom Binary
+      description: Draw a intraday currency chart for a time range in a binary format
+      operationId: postGetcurrencyintradaychartcustombinary
+      x-api-path-slug: currency-intraday--custom-binary-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Currency
+      - Intraday
+      - Chart
+      - Custom
+      - Binary
+  Currency, Intraday, , Custom:
+    get:
+      summary: Get Currency Intraday Chart Custom
+      description: Draw a intraday currency chart for a time range in a binary format
+      operationId: postGetcurrencyintradaychartcustom
+      x-api-path-slug: currency-intraday--custom-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Currency
+      - Intraday
+      - Chart
+      - Custom
   Intraday, Future, , Custom:
     get:
       summary: Get Intraday Future Chart Custom
